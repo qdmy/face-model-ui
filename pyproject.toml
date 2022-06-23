@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "face-model-ui"
+version = "0.1.0"
+description = "open ui for bfm, arkit, flame which is able to see the control region of each coefficients"
+authors = ["liuxu <i_liuxu@cvte.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+
+[tool.poetry.dev-dependencies]
+easydict = "1.9"
+numpy = "1.21.5"
+open3d = "0.15.1"
+PyQt5 = "5.15.7"
+scipy = "1.7.3"
+smplx = "0.1.28"
+torch = "1.11.0"
+
+[[tool.poetry.source]]
+name = "face-model-ui"
+url = "https://github.com/qdmy/face-model-ui"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

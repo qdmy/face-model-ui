@@ -1,0 +1,12 @@
+__pycache__/
+.vscode
+
+!arkit_blendshape/*
+
+bfm/*
+!bfm/bfm.py
+!bfm/template.obj
+
+flame/*
+!flame/FLAME_sample.obj
+!flame/FLAME.py
